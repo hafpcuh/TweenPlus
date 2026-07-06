@@ -31,4 +31,4 @@ Get [Packet+](https://github.com/AlexanderLindholt/PacketPlus) (my fork of Packe
 
 Check out the original Packet [DevForum](https://devforum.roblox.com/t/3573907) post to learn all about the library.
 
-If you’re not sure why my version is better, check out why [here](https://github.com/AlexanderLindholt/PacketPlus?tab=readme-ov-file#-its-just-better).
+You can check out what my version improves [here](https://github.com/AlexanderLindholt/PacketPlus?tab=readme-ov-file#-its-just-better).

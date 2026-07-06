@@ -29,7 +29,7 @@ If we look closer at standard network payloads, we often find unnecessary bits. 
 
 A `Float64` includes a massive range of numbers from $$-1.79 \times 10^{308}$$ all the way up to $$1.79 \times 10^{308}$$, with up to 16 digits of decimal precision. In many cases, that’s extreme overkill. Therefore, we can drastically lower the amount of bits used to represent our data.
 
-One example of this optimization in Tween+ is our server tween identifiers. They are intentionally limited to a range of 0–255 because that fits perfectly into a `UInt8` (an unsigned 8-bit integer). While this caps the maximum number of active server tweens at 256 at any given moment, it significantly reduces network traffic. Keep in mind that this type of compression isn't limited to numbers—it can be applied to all sorts of data!
+One example of this optimization in Tween+ is our server tween identifiers. They are intentionally limited to a range of 0–255 because that fits perfectly into a `UInt8` (an unsigned 8-bit integer). While this caps the maximum number of active server tweens at 256 at any given moment, it significantly reduces network traffic. Keep in mind that this type of compression isn't limited to numbers – it can be applied to all sorts of data!
 
 But there is specific data that is often completely overlooked.
 

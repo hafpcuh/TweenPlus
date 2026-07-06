@@ -22,16 +22,16 @@ layout:
 
 # Custom easing functions
 
-Instead of moving from `0` to `1` at a constant rate (linear), an easing function remaps time so motion isn’t constant but changing.
+Instead of moving from 0 to 1 at a constant rate (linear), an easing function remaps time so the speed of the motion changes over the course of the animation.
 
-Usually, easing styles have 4 directions:
+Usually, easing styles have 4 "directions":
 
 * **In**: slow → fast
 * **Out**: fast → slow
 * **In-Out**: slow → fast → slow
 * **Out-In:** fast → slow → fast
 
-Easing is crucial in animations to make them feel natural, rather than robotic, and can usually be visualized with graphs, showing the motion from A to B. Check out examples [here](https://easings.net/).
+Easing is crucial in animations to make them feel natural, rather than robotic. These functions can be visualized with graphs, showing the motion from A to B. You can check out interactive examples at [easings.net](https://easings.net/).
 
 
 

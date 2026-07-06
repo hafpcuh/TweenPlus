@@ -19,7 +19,7 @@
 
 ## Control
 
-* [Playback and control](control/playback-and-control.md)
+* [Methods](control/playback-and-control.md)
 * [States](control/states.md)
 * [Signals](control/signals.md)
 
