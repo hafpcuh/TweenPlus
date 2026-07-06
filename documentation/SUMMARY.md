@@ -17,20 +17,20 @@
 * [Bézier curves](creation/bezier-curves.md)
 * [Preallocations](creation/preallocations.md)
 
-## Tween usage
+## Control
 
-* [Playback and control](tween-usage/playback-and-control.md)
-* [States](tween-usage/states.md)
-* [Signals](tween-usage/signals.md)
+* [Playback and control](control/playback-and-control.md)
+* [States](control/states.md)
+* [Signals](control/signals.md)
 
-## Global tweens & networking
+## Networking
 
-* [Introduction](global-tweens-and-networking/introduction.md)
-* [Networking library](global-tweens-and-networking/networking-library.md)
-* [Packets](global-tweens-and-networking/packets.md)
-* [Global tweens](global-tweens-and-networking/global-tweens.md)
-* [How it works](global-tweens-and-networking/how-it-works/README.md)
-  * [Let the client do it](global-tweens-and-networking/how-it-works/let-the-client-do-it.md)
-  * [Re-use data](global-tweens-and-networking/how-it-works/re-use-data.md)
-  * [Compress the data](global-tweens-and-networking/how-it-works/compress-the-data.md)
-  * [Outroduction](global-tweens-and-networking/how-it-works/outroduction.md)
+* [Introduction](networking/introduction.md)
+* [Networking library](networking/networking-library.md)
+* [Packets](networking/packets.md)
+* [Global tweens](networking/global-tweens.md)
+* [How it works](networking/how-it-works/README.md)
+  * [Let the client do it](networking/how-it-works/let-the-client-do-it.md)
+  * [Re-use data](networking/how-it-works/re-use-data.md)
+  * [Compress the data](networking/how-it-works/compress-the-data.md)
+  * [Outroduction](networking/how-it-works/outroduction.md)

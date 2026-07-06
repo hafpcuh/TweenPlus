@@ -1,5 +1,4 @@
 ---
-icon: list
 layout:
   width: default
   title:
@@ -20,24 +19,8 @@ layout:
     visible: true
 ---
 
-# Supported datatypes
+# Introduction
 
-**Property/attribute types:**
+Tween+ offers highly optimized networking for efficient global tweening in games.
 
-* boolean
-* number
-* string
-* Vector2
-* Vector3
-* UDim
-* UDim2
-* Color3
-* CFrame
-* NumberRange
-* NumberSequence
-* ColorSequence
-
-**Method-based properties:**
-
-* `Pivot`
-* `Scale`
+See the main [DevForum](https://devforum.roblox.com/t/3599638) post for a comparison to TweenService—the performance gap might surprise you.
