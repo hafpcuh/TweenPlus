@@ -74,16 +74,15 @@ local function destroy(tween: InternalTween)
 		tweensAmount -= 1
 		
 		-- Fire stopped signal.
-		if Signal then tween.Stopped:Fire() end
+		tween.Stopped:Fire()
 	end
 	
 	-- Destroy signals.
-	if Signal then
-		tween.Updated:Destroy()
-		tween.Started:Destroy()
-		tween.Stopped:Destroy()
-		tween.Completed:Destroy()
-	end
+	tween.Updated:Destroy()
+	tween.Started:Destroy()
+	tween.Stopped:Destroy()
+	tween.Completed:Destroy()
+
 	-- Unlink methods.
 	setmetatable(tween, nil)
 end
@@ -228,21 +227,21 @@ Tween.__index = Tween
 Tween.Start = function(tween: InternalTween)
 	if not tween.Playing then
 		start(tween)
-		if Signal then tween.Started:Fire() end
+		tween.Started:Fire()
 	end
 	return tween
 end
 Tween.Stop = function(tween: InternalTween)
 	if tween.Playing then
 		stop(tween)
-		if Signal then tween.Stopped:Fire() end
+		tween.Stopped:Fire()
 	end
 	return tween
 end
 Tween.Reset = function(tween: InternalTween)
 	if tween.Playing then
 		stop(tween)
-		if Signal then tween.Stopped:Fire() end
+		tween.Stopped:Fire()
 	end
 	tween.WaitTime = nil
 	tween.StopTime = 0
