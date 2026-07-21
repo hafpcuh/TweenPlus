@@ -2,7 +2,6 @@
 --!native
 
 -- Services.
-local CollectionService = game:GetService("CollectionService")
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 
